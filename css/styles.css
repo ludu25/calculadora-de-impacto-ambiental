@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #2e8b57;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.tree-icon {
+  margin-top: 10px;
+}
+
+main {
+  padding: 20px;
+  flex: 1;
+}
+
+.form-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.form-card h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.form-card label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-card button {
+  background-color: #007b5e;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-card button:hover {
+  background-color: #005f42;
+}
+
+.form-card button i {
+  margin-right: 10px;
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #2e8b57;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.underlined {
+    text-decoration: underline;
+}
